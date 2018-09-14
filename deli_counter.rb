@@ -4,8 +4,9 @@ def line(array)
   else 
     myOutput = "The line is currently: "
     array.each.with_index do |name, index|
-      myOutput += "#{index}. #{name}"
+      myOutput += "#{index}. #{name} "
     end 
+    myOutput
   end 
   
 end 
